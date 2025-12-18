@@ -25,3 +25,27 @@ const students = [
 const studentId2 = students.find((student) => student.id === 2);
 
 console.log(studentId2);
+
+//con for each
+
+let studentId22 = {};
+
+students.forEach((student, i) =>{
+  if (student.id === 2){
+    studentId22 = student
+  }
+});
+
+console.log(studentId22);
+
+//con for
+
+let studentId23 = {};
+
+for (let i = 0; i < students.length; i++){
+  if(students[i].id === 2){
+    studentId23 = students[i]
+  }
+}
+
+console.log(studentId23);
