@@ -8,3 +8,23 @@ const numbersPlusOne = numbers.map((number) =>{
 });
 
 console.log(numbersPlusOne);
+
+//con for each
+
+const numbersPlusOne2 = [];
+
+numbers.forEach((number,i) =>{
+    numbersPlusOne2.push(number + 1)
+});
+
+console.log(numbersPlusOne2);
+
+//con for
+
+const numbersPlusOne3 = [];
+
+for(let i = 0; i < numbers.length; i++){
+    numbersPlusOne3.push(numbers[i] + 1)
+};
+
+console.log(numbersPlusOne3);
