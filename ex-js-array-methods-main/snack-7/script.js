@@ -30,8 +30,8 @@ console.log(studentId2);
 
 let studentId22 = {};
 
-students.forEach((student, i) =>{
-  if (student.id === 2){
+students.forEach((student, i) => {
+  if (student.id === 2) {
     studentId22 = student
   }
 });
@@ -42,8 +42,8 @@ console.log(studentId22);
 
 let studentId23 = {};
 
-for (let i = 0; i < students.length; i++){
-  if(students[i].id === 2){
+for (let i = 0; i < students.length; i++) {
+  if (students[i].id === 2) {
     studentId23 = students[i]
   }
 }

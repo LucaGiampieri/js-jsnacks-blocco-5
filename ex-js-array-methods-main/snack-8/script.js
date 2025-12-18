@@ -26,19 +26,19 @@ const students = [
 
 let marcoLanciClass;
 
-const marcoLanci = students.find((student) =>{
-  if(student.name === 'Marco Lanci'){
-    marcoLanciClass = student.class 
+const marcoLanci = students.find((student) => {
+  if (student.name === 'Marco Lanci') {
+    marcoLanciClass = student.class
   }
-  return marcoLanciClass 
+  return marcoLanciClass
 });
 
 console.log(marcoLanciClass);
 
 //meteodo 2
 
-const marcoLanciClass2 = students.find((student) =>{
-  if(student.name === 'Marco Lanci'){
+const marcoLanciClass2 = students.find((student) => {
+  if (student.name === 'Marco Lanci') {
     return student
   }
 });
@@ -47,12 +47,12 @@ console.log(marcoLanciClass2.class);
 
 //metodo 3
 
-const marcoLanci3 = students.find((student) =>{
-  if(student.name === 'Marco Lanci'){
+const marcoLanci3 = students.find((student) => {
+  if (student.name === 'Marco Lanci') {
     return student
   }
 });
- 
+
 const marcoLanciClass3 = marcoLanci3.class;
 
 console.log(marcoLanciClass3);
@@ -62,7 +62,7 @@ console.log(marcoLanciClass3);
 let marcoLanciClass22;
 
 students.forEach((student, i) => {
-  if ( student.name === 'Marco Lanci'){
+  if (student.name === 'Marco Lanci') {
     marcoLanciClass22 = student.class
   }
 });
@@ -73,8 +73,8 @@ console.log(marcoLanciClass22);
 
 let marcoLanciClass33;
 
-for (let i = 0; i < students.length; i++){
-  if(students[i].name === 'Marco Lanci'){
+for (let i = 0; i < students.length; i++) {
+  if (students[i].name === 'Marco Lanci') {
     marcoLanciClass33 = students[i].class
   }
 };

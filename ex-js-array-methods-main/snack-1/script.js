@@ -10,7 +10,6 @@ names.forEach((name,i) => {
     console.log(name);
 });
 
-
 //con for
 
 for (let i = 0; i < names.length; i++){

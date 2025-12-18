@@ -25,8 +25,8 @@ const zucchineOver152 = [];
 
 const zucchineUnder152 = [];
 
-zucchine.forEach((zuchinis,i) =>{
-  if (zuchinis.length >= 15){
+zucchine.forEach((zuchinis, i) => {
+  if (zuchinis.length >= 15) {
     zucchineOver152.push(zuchinis)
   } else {
     zucchineUnder152.push(zuchinis)
@@ -41,8 +41,8 @@ const zucchineOver153 = [];
 
 const zucchineUnder153 = [];
 
-for (let i = 0; i <  zucchine.length; i++){
-  if(zucchine[i].length >= 15){
+for (let i = 0; i < zucchine.length; i++) {
+  if (zucchine[i].length >= 15) {
     zucchineOver153.push(zucchine[i])
   } else {
     zucchineUnder153.push(zucchine[i])

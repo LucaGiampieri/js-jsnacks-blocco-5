@@ -16,7 +16,7 @@ console.log(authorsNames);
 
 const authorsNames2 = [];
 
-posts.forEach((post,i) =>{
+posts.forEach((post, i) => {
   authorsNames2.push(post.author)
 });
 
@@ -26,7 +26,7 @@ console.log(authorsNames2);
 
 const authorsNames3 = [];
 
-for (let i = 0; i < posts.length; i++){
+for (let i = 0; i < posts.length; i++) {
   authorsNames3.push(posts[i].author)
 };
 
