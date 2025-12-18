@@ -12,4 +12,3 @@ names.forEach((name,i) => {
 });
 
 console.log(newList);
-
