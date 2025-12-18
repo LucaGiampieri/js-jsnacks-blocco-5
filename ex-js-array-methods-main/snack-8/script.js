@@ -56,3 +56,27 @@ const marcoLanci3 = students.find((student) =>{
 const marcoLanciClass3 = marcoLanci3.class;
 
 console.log(marcoLanciClass3);
+
+//con for each
+
+let marcoLanciClass22;
+
+students.forEach((student, i) => {
+  if ( student.name === 'Marco Lanci'){
+    marcoLanciClass22 = student.class
+  }
+});
+
+console.log(marcoLanciClass22);
+
+//con for
+
+let marcoLanciClass33;
+
+for (let i = 0; i < students.length; i++){
+  if(students[i].name === 'Marco Lanci'){
+    marcoLanciClass33 = students[i].class
+  }
+};
+
+console.log(marcoLanciClass33);
